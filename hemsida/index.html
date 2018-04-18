@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
 <body>
 
-<h1 style="background-color:Tomato;">This is a August</h1>
-<p style="background-color:LightGrey;">This is a paragraph.</p>
+Name: <input type="text" id="myText" value="Mickey">
+
+<p>Click the button to change the value of the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    document.getElementById("myText").value = "Johnny Bravo";
+}
+</script>
 
 </body>
 </html>
