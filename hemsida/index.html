@@ -2,23 +2,23 @@
 <html>
 <body>
 
-Name: <input type="text" id="myText" value="Är det upptaget or not?">
+Name: <input type="text" id="myText" value="Occupied or empty?">
 
-<p>Click the button to change the value of the text field.</p>
+<p>Choose status of the room</p>
 
-<button onclick="upptaget()">Upptaget</button>
+<button onclick="upptaget()">Occupied</button>
 
 <script>
 function upptaget() {
-    document.getElementById("myText").value = "Upptaget";
+    document.getElementById("myText").value = "Occupied";
 }
 </script>
 
-<button onclick="ledigt()">Ledigt</button>
+<button onclick="ledigt()">Empty</button>
 
 <script>
 function ledigt() {
-    document.getElementById("myText").value = "Ledigt";
+    document.getElementById("myText").value = "Empty";
 }
 </script>
 
